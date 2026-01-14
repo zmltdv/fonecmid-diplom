@@ -10,5 +10,6 @@
   <content>Document.ВКМ_ОбслуживаниеКлиента</content>
   <content>Enum.ВидыДоговоровКонтрагентов</content>
   <content>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы</content>
+  <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
   <parentSubsystem>Subsystem.ВКМ_ДобавленныеОбъекты</parentSubsystem>
 </mdclass:Subsystem>
