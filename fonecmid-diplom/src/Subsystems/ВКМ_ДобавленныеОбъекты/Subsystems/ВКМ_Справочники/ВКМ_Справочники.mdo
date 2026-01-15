@@ -8,5 +8,7 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.ВКМ_Сотрудники</content>
+  <content>Catalog.ВКМ_УведомленияТелеграмБоту</content>
+  <content>Catalog.ВКМ_Подразделения</content>
   <parentSubsystem>Subsystem.ВКМ_ДобавленныеОбъекты</parentSubsystem>
 </mdclass:Subsystem>

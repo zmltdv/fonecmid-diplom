@@ -170,7 +170,6 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -410,4 +409,11 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <templates uuid="4c961790-5686-4fc2-8a65-571be0843e9c">
+    <name>ВКМ_ПФ_MXL_АктОбОказанныхУслугах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт об оказанных услугах</value>
+    </synonym>
+  </templates>
 </mdclass:Document>
