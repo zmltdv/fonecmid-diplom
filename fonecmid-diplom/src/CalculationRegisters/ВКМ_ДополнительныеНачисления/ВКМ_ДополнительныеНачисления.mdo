@@ -18,7 +18,7 @@
   <periodicity>Month</periodicity>
   <chartOfCalculationTypes>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</chartOfCalculationTypes>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <resources uuid="6ad46b9e-ea8a-411f-97fc-85d74fbf35db">
+  <resources uuid="a5f13a6e-60d3-4eb5-ade1-7cc44bf80d01">
     <name>Сумма</name>
     <synonym>
       <key>ru</key>
@@ -35,7 +35,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
-  <dimensions uuid="c0f25b24-3968-4f65-8f2a-33b349c6337d">
+  <dimensions uuid="7beb5a44-6d31-4e47-ac0e-ca75900748b3">
     <name>Сотрудник</name>
     <synonym>
       <key>ru</key>
@@ -48,7 +48,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </dimensions>
-  <dimensions uuid="fe894e19-14ba-4081-827f-08543773dcf5">
+  <dimensions uuid="3c470a88-78e0-40f0-91b9-649f94942977">
     <name>Подразделение</name>
     <synonym>
       <key>ru</key>

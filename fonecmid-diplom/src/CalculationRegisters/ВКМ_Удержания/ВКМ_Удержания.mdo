@@ -16,9 +16,10 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <periodicity>Month</periodicity>
+  <basePeriod>true</basePeriod>
   <chartOfCalculationTypes>ChartOfCalculationTypes.ВКМ_Удержания</chartOfCalculationTypes>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <resources uuid="a21c7cf4-cfa2-4919-86c8-9aadf6818696">
+  <resources uuid="a44cabb0-23a0-4b4d-b950-e8be4f0a1f9a">
     <name>Сумма</name>
     <synonym>
       <key>ru</key>
@@ -35,7 +36,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
-  <dimensions uuid="1ab0b8ee-ae53-46aa-aa06-3039ea21baee">
+  <dimensions uuid="25553fd7-9dd1-42d4-8534-61748baf8539">
     <name>Сотрудник</name>
     <synonym>
       <key>ru</key>
@@ -48,7 +49,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </dimensions>
-  <dimensions uuid="cb3133fb-0dd0-490f-837f-6658b719b382">
+  <dimensions uuid="e5501154-412a-4d21-8494-2536f0736978">
     <name>Подразделение</name>
     <synonym>
       <key>ru</key>
