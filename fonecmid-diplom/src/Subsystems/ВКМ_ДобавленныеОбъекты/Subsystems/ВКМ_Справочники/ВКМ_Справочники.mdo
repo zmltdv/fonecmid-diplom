@@ -10,5 +10,6 @@
   <content>Catalog.ВКМ_Сотрудники</content>
   <content>Catalog.ВКМ_УведомленияТелеграмБоту</content>
   <content>Catalog.ВКМ_Подразделения</content>
+  <content>InformationRegister.ВКМ_ГрафикиРаботы</content>
   <parentSubsystem>Subsystem.ВКМ_ДобавленныеОбъекты</parentSubsystem>
 </mdclass:Subsystem>
