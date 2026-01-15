@@ -17,6 +17,10 @@
   <registerType>Turnovers</registerType>
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
+  <listPresentation>
+    <key>ru</key>
+    <value>Выполненные сотрудником работы</value>
+  </listPresentation>
   <resources uuid="15cbd0e2-e7b1-47c1-966d-b5ad7ea33548">
     <name>ЧасовКОплате</name>
     <synonym>

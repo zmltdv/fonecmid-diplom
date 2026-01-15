@@ -68,6 +68,23 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
+  <resources uuid="cd99a565-a2c1-492b-a34d-f53461230a1f">
+    <name>ВКМ_СтоимостьУслуг</name>
+    <synonym>
+      <key>ru</key>
+      <value>ВКМ стоимость услуг</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
   <dimensions uuid="b6a5bbfc-8d36-4406-9b12-1f435bc8f97f">
     <name>Контрагент</name>
     <synonym>

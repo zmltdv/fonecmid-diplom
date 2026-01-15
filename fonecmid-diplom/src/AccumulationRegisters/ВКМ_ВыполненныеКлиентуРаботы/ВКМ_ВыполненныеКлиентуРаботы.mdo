@@ -16,6 +16,10 @@
   <useStandardCommands>true</useStandardCommands>
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
+  <listPresentation>
+    <key>ru</key>
+    <value>Выполненные клиенту работы</value>
+  </listPresentation>
   <resources uuid="b874e512-40db-4a1d-bd49-06898030c3c1">
     <name>КоличествоЧасов</name>
     <synonym>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dcae64e1-c298-48f6-85f1-de35de3514e6">
+  <producedTypes>
+    <objectType typeId="d3a7f4d9-80e4-4db1-9f40-828fe409d45d" valueTypeId="52153999-59c4-4af8-ab40-7ddabb46bdd1"/>
+    <refType typeId="dfb53e06-7406-46c3-ad9e-cb08887d0919" valueTypeId="9cd92d9c-57ee-4ef2-ac39-2a3ba6375c32"/>
+    <selectionType typeId="4b513a29-37f0-4a6d-a746-10d915e1334b" valueTypeId="ba63d08e-f3b1-4f7d-8234-80b3ee231f9b"/>
+    <listType typeId="e2ff9152-0ae7-43a6-9476-4776a01b62b8" valueTypeId="cdc51157-09ec-4cc2-9b3e-ea4da8ca9b81"/>
+    <managerType typeId="f9746cf7-92e8-4caa-9ce3-c0665b7cee3a" valueTypeId="1670d1eb-0c90-4868-9e20-439b5ea00479"/>
+  </producedTypes>
+  <name>ВКМ_ВыплатыЗарплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выплаты зарплаты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ВКМ_ВыплатыЗарплаты.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ВКМ_ВыплатыЗарплаты.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <forms uuid="a7d988ff-2004-4c02-a769-3c350c39ce2a">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="edcf52c6-e63e-455b-91ba-9d6d7c71a130">
+    <producedTypes>
+      <objectType typeId="39ab678d-bcee-40bb-961d-95e85c94f9d1" valueTypeId="3feac90c-e6da-417d-a8b8-26c1828714c2"/>
+      <rowType typeId="20d01453-544b-49de-8516-c611fc33d102" valueTypeId="eaca46b9-0fd6-4efa-ba38-9efa6734c971"/>
+    </producedTypes>
+    <name>Выплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выплаты</value>
+    </synonym>
+    <attributes uuid="85ab5b33-d746-4188-8a37-8ec24f3ab668">
+      <name>Сотрудник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВКМ_Сотрудники</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1c900fb6-2142-4dbc-b52f-38a201b7d0a2">
+      <name>Подразделение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Подразделение</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВКМ_Подразделения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="13499a6a-5a42-4603-9d16-8123d8fecc14">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>
