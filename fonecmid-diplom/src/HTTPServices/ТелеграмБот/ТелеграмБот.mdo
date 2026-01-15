@@ -8,4 +8,36 @@
   <rootURL>bots</rootURL>
   <reuseSessions>AutoUse</reuseSessions>
   <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="0e522851-d56e-4b5a-9dde-73d191630f04">
+    <name>Ping</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ping</value>
+    </synonym>
+    <template>/ping</template>
+    <methods uuid="07437820-65f9-4a5b-afbb-7f359163ec31">
+      <name>GETPing</name>
+      <synonym>
+        <key>ru</key>
+        <value>GETPing</value>
+      </synonym>
+      <handler>PingGETPing</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="84bcb4ac-0854-4442-96b1-eb98ceca0157">
+    <name>Send</name>
+    <synonym>
+      <key>ru</key>
+      <value>Send</value>
+    </synonym>
+    <template>/send</template>
+    <methods uuid="750c4043-5dbc-42e2-ad80-94811a659ee8">
+      <name>POSTSend</name>
+      <synonym>
+        <key>ru</key>
+        <value>POSTSend</value>
+      </synonym>
+      <handler>SendPOSTSend</handler>
+    </methods>
+  </urlTemplates>
 </mdclass:HTTPService>

@@ -94,10 +94,6 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <title>
-      <key>ru</key>
-      <value>Номер дата</value>
-    </title>
     <extendedTooltip>
       <name>НомерДатаРасширеннаяПодсказка</name>
       <id>57</id>
@@ -381,10 +377,6 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <title>
-      <key>ru</key>
-      <value>План</value>
-    </title>
     <extendedTooltip>
       <name>ПланРасширеннаяПодсказка</name>
       <id>59</id>
