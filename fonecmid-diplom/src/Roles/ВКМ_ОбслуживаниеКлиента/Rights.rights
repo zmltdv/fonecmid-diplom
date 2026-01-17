@@ -143,6 +143,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Subsystem.ВКМ_ДобавленныеОбъекты</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>HTTPService.ТелеграмБот.URLTemplate.Send.Method.POSTSend</name>
 		<right>
 			<name>Use</name>
