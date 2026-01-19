@@ -149,6 +149,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Subsystem.СтандартныеПодсистемы</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Subsystem.ВКМ_ДобавленныеОбъекты.Subsystem.ВКМ_ОбслуживаниеКлиентов</name>
 		<right>
 			<name>View</name>
@@ -506,6 +513,13 @@
 		</right>
 		<right>
 			<name>Edit</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Subsystem.Деньги</name>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
