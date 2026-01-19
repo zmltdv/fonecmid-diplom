@@ -20,6 +20,14 @@
     <type>
       <types>StandardPeriod</types>
     </type>
+    <format>
+      <key>ru</key>
+      <value>ДФ=MM.yyyy</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДФ=MM.yyyy</value>
+    </editFormat>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
@@ -31,7 +39,7 @@
     <name>СписокРеализаций</name>
     <synonym>
       <key>ru</key>
-      <value>Список реализаций</value>
+      <value>Список</value>
     </synonym>
     <attributes uuid="a4bc24d5-64a5-4d7c-894a-192a81ac5cf4">
       <name>Договор</name>
@@ -60,7 +68,7 @@
       <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
   </tabularSections>
-  <forms uuid="0d64e92e-3754-4b85-8ddf-48ce0df09790">
+  <forms uuid="468a564f-93fe-490a-a07e-2cb0e0561609">
     <name>Форма</name>
     <synonym>
       <key>ru</key>

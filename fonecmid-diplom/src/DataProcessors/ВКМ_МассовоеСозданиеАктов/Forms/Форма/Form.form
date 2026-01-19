@@ -175,16 +175,16 @@
       <name>СписокРеализацийКоманднаяПанель</name>
       <id>6</id>
       <items xsi:type="form:Button">
-        <name>СписокРеализацийЗаполнить</name>
-        <id>28</id>
+        <name>ФормаЗаполнить</name>
+        <id>26</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>СписокРеализацийЗаполнитьРасширеннаяПодсказка</name>
-          <id>29</id>
+          <name>ФормаЗаполнитьРасширеннаяПодсказка</name>
+          <id>27</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>

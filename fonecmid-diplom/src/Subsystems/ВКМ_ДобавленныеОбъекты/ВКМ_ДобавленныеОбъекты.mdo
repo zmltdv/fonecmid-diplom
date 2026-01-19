@@ -14,6 +14,7 @@
   <content>DataProcessor.ВКМ_ЗаполнениеГрафика</content>
   <content>Report.ВКМ_ВыработкаСпециалистов</content>
   <content>Report.ВКМ_АнализВыставленныхАктов</content>
+  <content>HTTPService.ТелеграмБот</content>
   <subsystems>ВКМ_ОбслуживаниеКлиентов</subsystems>
   <subsystems>ВКМ_Справочники</subsystems>
   <subsystems>ВКМ_Документы</subsystems>
